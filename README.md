@@ -1,1 +1,1 @@
-# singolo
+https://github.com/YauhKaz/singolo.git
