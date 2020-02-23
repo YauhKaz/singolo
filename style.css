@@ -42,6 +42,9 @@ header {
             letter-spacing: 0.05px;
         }
         
+        a:hover {
+            color: #f06c64;
+        }
 .point {
     font-size:8px;
 }
