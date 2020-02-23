@@ -12,14 +12,15 @@ header {
 
     header h1 {
         margin-left: 0px;
-        margin-top: 29px;
+        margin-top: 41px;
+        line-height: 6px;
         color: white;
         font-family: "LATO";
         font-weight: 900;
         text-align: left;
         margin-right: 440px;
         font-size: 24px;
-        letter-spacing:0.2px;
+        letter-spacing: 0.2px;
     }
 
     header ul {
@@ -33,6 +34,7 @@ header {
 
         header li a {
             font-size: 12px;
+            line-height: 6px;
             color: white;
             text-decoration: none;
             text-align: left;
@@ -41,10 +43,11 @@ header {
             font-weight: 300;
             letter-spacing: 0.05px;
         }
+
+a:hover {
+    color: #f06c64;
+}
         
-        a:hover {
-            color: #f06c64;
-        }
 .point {
     font-size:8px;
 }
@@ -161,7 +164,7 @@ header {
     margin: 41px;
     display: grid;
     margin-bottom: 20px;
-    grid-template-columns: 80px 239px 80px 240px 80px 240px;
+    grid-template-columns: 80px 239px 80px 240px 80px 241px;
     grid-template-rows: 123px;    
 }
 
@@ -173,13 +176,13 @@ header {
         font-size: 18px;
         line-height: 18px;
         margin-left: -1px;
-        margin-top: 5px;
+        margin-top: 6px;
         margin-bottom: 8px;
         color: #666d89;
         font-family: "Lato";
         font-weight: 900;
         text-align: left;
-        letter-spacing: 0.1px;
+        letter-spacing: 0.3px;
     }
 
 
@@ -198,7 +201,7 @@ header {
         font-family: "Lato";
         font-weight: 400;
         text-align: left;
-        letter-spacing: 0.2px;
+        letter-spacing: -0.012em;
     }
 
 
