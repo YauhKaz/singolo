@@ -71,6 +71,10 @@ input {
     height: 199px;
     }
 
+#buttom {
+    width: 50px;
+}
+
 .contact {
     padding-left: 0px;
         padding-top: 4px;
@@ -94,6 +98,12 @@ input {
     font-family: "LATO";
     font-weight: 900;
     text-align: left;
+}
+
+.other span {
+    line-height: 23px;
+    margin-left: 17px;
+    font-size: 12px;
 }
 
 footer {
