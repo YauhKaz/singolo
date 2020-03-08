@@ -1,0 +1,124 @@
+body {
+    width: 1020px;
+    font-family: "LATO";
+}
+
+.get-a-quote {
+    background-color: #f06c64;
+    color: #f0d8d9;
+    height: 648px;
+    border-bottom: 3px solid #ea676b;
+}
+
+    .get-a-quote .article {
+        padding-left: 40px;
+        padding-top: 73px;
+        font-size: 30px;
+        letter-spacing: 0.3px;
+        line-height: 6px;
+        font-family: "LATO";
+        font-weight: 900;
+        text-align: left;
+    }
+
+    .get-a-quote .article-description {
+        padding-left: 40px;
+        padding-top: 4px;
+        width: 940px;
+        height: 22px;
+        font-size: 18px;
+        line-height: 31px;
+        font-family: "Lato";
+        font-weight: 300;
+        text-align: left;
+        letter-spacing: -0.08px;
+    }
+
+    .get-a-quote .article-description span{
+        letter-spacing: -0.22px;
+    }
+
+.grid-form {
+    margin-left: 0px;
+    margin-top: 65px;
+    display: grid;
+    grid-template-columns: 680px 340px;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.form-left {
+    
+}
+
+input {
+    margin-left: 40px;
+    margin-top: 0px;
+    width: 605px;
+    height: 34px;
+    background-color: #d6564f;
+    color: white;
+    padding-left: 13px;
+    padding-top: 2px;
+    font-size: 12px;
+    line-height: 31px;
+    border-radius: 5px;
+    border: 1px solid #f06c64;
+}
+
+#form-description {
+    margin-top: -2px;
+    height: 199px;
+    }
+
+.contact {
+    padding-left: 0px;
+        padding-top: 4px;
+        margin-bottom:0px;
+        font-size: 20px;
+        letter-spacing: -0.7px;
+        line-height: 6px;
+        font-family: "LATO";
+        font-weight: 900;
+        text-align: left;
+}
+
+.contact-description {
+    max-width: 340px;
+    overflow: hidden;
+    padding-left: 0px;
+    padding-top: 8px;
+    font-size: 10px;
+    line-height: 22px;
+    letter-spacing: 0.9px;
+    font-family: "LATO";
+    font-weight: 900;
+    text-align: left;
+}
+
+footer {
+    width:1020px;
+    height: 76px;
+    background-color: #2d303a;
+    border-top: 2px solid #ea676b;
+    color: #626984;
+    line-height: 6px;
+    text-align:left;
+}
+
+footer ul{
+    
+} 
+
+footer li {
+    display: inline-block;
+    font-size: 12px;
+    margin-right:5px;
+}
+
+.copyright {
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-right: 690px;
+    letter-spacing: 0px;
+}
