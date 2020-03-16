@@ -12,7 +12,7 @@
         <div>
             <ul id="menu">
                 <li><h1>SINGOLO<span class="logo-star">*</span></h1></li>
-                <li class="active"><a href="#Home">HOME</a></li>
+                <li class="active"><a href="#home-link">HOME</a></li>
                 <li class="point">•</li>
                 <li><a href="#services-link">SERVICES</a></li>
                 <li class="point">•</li>
@@ -27,14 +27,19 @@
     <main>
         <section class="Slider">
             <div>
-                <a href=""><img class="symbol_left" src="assets/chev.png" /></a>
-                <img class="model-iPhone-vertical" alt="iPhone" src="assets/iPhone.png">
-                <img class="shadow-vertical" alt="iPhoneShadow" src="assets/Shadow.png">
-                <img class="picture-vertical" alt="picture-vertical" src="assets/Layer6.png" />
-                <img class="model-iPhone-horizontal" alt="iPhone" src="assets/iPhone.png">
-                <img class="shadow-horizontal" alt="iPhoneShadow" src="assets/Shadow2.png">
-                <img class="picture-horizontal" alt="picture-horizontal" src="assets/Layer5.png" />
-                <a href=""><img class="symbol_right" src="assets/chevr.png" /></a>
+                <div id="Slide-1" class="active-slide">
+                    <img id="iPhone-V" class="model-iPhone-vertical" alt="iPhone" src="assets/iPhone.png">
+                    <img class="shadow-vertical" alt="iPhoneShadow" src="assets/Shadow.png">
+                    <img id="pic-V" class="picture-vertical" alt="picture-vertical" src="assets/Layer6.png" />
+                    <img id="iPhone-H" class="model-iPhone-horizontal" alt="iPhone" src="assets/iPhone.png">
+                    <img class="shadow-horizontal" alt="iPhoneShadow" src="assets/Shadow2.png">
+                    <img id="pic-H" class="picture-horizontal" alt="picture-horizontal" src="assets/Layer5.png" />
+                </div>
+                <div id="Slide-2" hidden>
+                    <img class="slide-2" alt="slide-2" src="assets/Slide-2.png" />
+                </div>
+                <a id="prev-slide" href="#"><img class="symbol_left" src="assets/chev.png" /></a>
+                <a id="next-slide" href="#"><img class="symbol_right" src="assets/chevr.png" /></a>
             </div>
         </section>
         <section class="Servises">

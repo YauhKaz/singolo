@@ -28,7 +28,6 @@ header {
     }
 
     header li {
-
         display: inline-block;
         align-items: center;
     }
@@ -45,16 +44,27 @@ header {
             letter-spacing: 0.05px;
         }
 
-a:hover {
+/*a:hover {
     color: #f06c64;
-}
+}*/
 
 .point {
     font-size: 8px;
 }
 
+.page-home {
+    color: red;
+}
+
 .active {
     color: red;
+    border: 1px solid #666d89;
+}
+
+li:not(.active):hover {
+    cursor: pointer;
+    border: none;
+    color: white;
 }
 
 .logo-star {
@@ -73,6 +83,19 @@ a:hover {
     .Slider img {
         position: absolute;
     }
+
+    .Slide-2 {
+        height: 600px;
+    }
+    
+    /*.active-slide
+    {
+        z-index: 100;
+    }
+
+    :not(.active-slide):hover {
+        z-index:0;
+    }*/
 
 .symbol_left {
     top: 282px;
@@ -466,6 +489,7 @@ a:hover {
 }
 
 
+
 input {
     margin-left: 40px;
     margin-top: 0px;
@@ -531,7 +555,7 @@ footer {
     text-align: left;
 }
 
-    
+ 
 
     footer li {
         display: inline-block;
