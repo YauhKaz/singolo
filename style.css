@@ -56,15 +56,14 @@ header {
     color: red;
 }
 
-.active {
+li .active {
     color: red;
     border: 1px solid #666d89;
 }
 
-li:not(.active):hover {
+li :not(.active):hover {
     cursor: pointer;
-    border: none;
-    color: white;
+    color: #f06c64;
 }
 
 .logo-star {
@@ -345,6 +344,14 @@ li:not(.active):hover {
         cursor: pointer;
     }
 
+.active-image-grid {
+    border: 5px solid #F06C64;
+}
+
+.noactive-image-grid {
+    border: none;
+}
+
 .about-us {
     width: 1020px;
     height: 728px;
@@ -488,7 +495,8 @@ li:not(.active):hover {
     overflow: hidden;
 }
 
-
+.form-left {
+}
 
 input {
     margin-left: 40px;
@@ -555,7 +563,8 @@ footer {
     text-align: left;
 }
 
- 
+    footer ul {
+    }
 
     footer li {
         display: inline-block;
